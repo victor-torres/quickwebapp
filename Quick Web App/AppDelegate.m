@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+@property (weak) IBOutlet NSTextField *appName;
+@property (weak) IBOutlet NSTextField *appURL;
+@property (weak) IBOutlet NSTextField *appIcon;
+- (IBAction)chooseIcon:(id)sender;
+- (IBAction)createApp:(id)sender;
 
 @property (weak) IBOutlet NSWindow *window;
 @end
@@ -23,4 +28,11 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)chooseIcon:(id)sender {
+    // Choose file here
+}
+
+- (IBAction)createApp:(id)sender {
+    // Run shell script here
+}
 @end
