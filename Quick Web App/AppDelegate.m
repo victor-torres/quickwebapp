@@ -56,5 +56,10 @@
     task.launchPath = filePath;
     task.arguments = @[appName, appURL, appIcon];
     [task launch];
+    // Shows alert
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:[NSString stringWithFormat:@"Your app \"%@\" has been created!", appName]];
+    [alert addButtonWithTitle:@"OK"];
+    [alert runModal];
 }
 @end
