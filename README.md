@@ -1,7 +1,7 @@
 # Quick Web App
 Create Chrome-based standalone web applications with custom icons on your Mac OS X for free :)
 
-## How does it works?
+## Humm, tell me more!
 
 Choose a name for your application, enter its URL and choose a cool transparent PNG icon for it.
 
@@ -17,7 +17,7 @@ Choose a name for your application, enter its URL and choose a cool transparent 
 
 ### How does it look in Dock
 
-![Quick Web App Scrreenshot: How does it look in Docker](http://i61.tinypic.com/4uukhy.png)
+![Quick Web App Scrreenshot: How does it look in Dock](http://i61.tinypic.com/4uukhy.png)
 
 ### How does it look ITSELF
 
