@@ -30,6 +30,20 @@
 
 - (IBAction)chooseIcon:(id)sender {
     // Choose file here
+    NSArray *fileTypes = [NSArray arrayWithObjects: @"png", @"PNG", nil];
+    NSOpenPanel * panel = [NSOpenPanel openPanel];
+    [panel setAllowedFileTypes:fileTypes];
+    [panel setAllowsMultipleSelection:NO];
+    [panel setCanChooseDirectories:NO];
+    [panel setCanChooseFiles:YES];
+    [panel setFloatingPanel:NO];
+    NSInteger result = [panel runModal];
+    if(result == NSModalResponseOK)
+    {
+        NSURL *iconURL = [panel URL];
+        NSString *iconPath = [iconURL absoluteString];
+        _appIcon.stringValue = iconPath;
+    }
 }
 
 - (IBAction)createApp:(id)sender {
