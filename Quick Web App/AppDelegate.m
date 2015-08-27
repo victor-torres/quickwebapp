@@ -48,5 +48,13 @@
 
 - (IBAction)createApp:(id)sender {
     // Run shell script here
+    NSString *filePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"makeapp" ofType:@"sh"];
+    NSString *appName = _appName.stringValue;
+    NSString *appURL = _appURL.stringValue;
+    NSString *appIcon = _appIcon.stringValue;
+    NSTask *task = [[NSTask alloc] init];
+    task.launchPath = filePath;
+    task.arguments = @[appName, appURL, appIcon];
+    [task launch];
 }
 @end
