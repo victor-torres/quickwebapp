@@ -52,6 +52,25 @@
     NSString *appName = _appName.stringValue;
     NSString *appURL = _appURL.stringValue;
     NSString *appIcon = _appIcon.stringValue;
+    
+    // Verifies if any field is blank
+    NSString *errorMessage = @"";
+    if ([appName isEqual: @""]) {
+        errorMessage = @"App name should not be blank.";
+    } else if ([appURL isEqual: @""]) {
+        errorMessage = @"App URL should not be blank.";
+    } else if ([appIcon isEqual: @""]) {
+        errorMessage = @"App icon should not be blank.";
+    }
+    // If there's a blank field, shows alert
+    if ([errorMessage isNotEqualTo: @""]) {
+        NSAlert *alert = [[NSAlert alloc] init];
+        [alert setMessageText:errorMessage];
+        [alert addButtonWithTitle:@"OK"];
+        [alert runModal];
+        return;
+    }
+    
     NSTask *task = [[NSTask alloc] init];
     task.launchPath = filePath;
     task.arguments = @[appName, appURL, appIcon];
