@@ -15,7 +15,7 @@ Choose a name for your application, enter its URL and choose a cool transparent 
 
 ![Quick Web App Scrreenshot: How does it look in Launchpad](http://i59.tinypic.com/5bux3s.png)
 
-### How does it look in Docker
+### How does it look in Docke
 
 ![Quick Web App Scrreenshot: How does it look in Docker](http://i61.tinypic.com/4uukhy.png)
 
