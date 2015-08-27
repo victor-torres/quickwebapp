@@ -7,7 +7,7 @@ Choose a name for your application, enter its URL and choose a cool transparent 
 
 ## Download
 
-![Quick Web App](http://i58.tinypic.com/68hqgo.png)
+[![Quick Web App](http://i58.tinypic.com/68hqgo.png)](https://github.com/victor-torres/quickwebapp/releases/download/1.0/QuickWebApp.zip)
 [Click here](https://github.com/victor-torres/quickwebapp/releases/download/1.0/QuickWebApp.zip) to download first version.
 
 ## Screenshots
