@@ -13,6 +13,7 @@
 		C90BA8C41B8E94E00023BA77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90BA8C21B8E94E00023BA77 /* MainMenu.xib */; };
 		C90BA8D01B8E94E00023BA77 /* Quick_Web_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C90BA8CF1B8E94E00023BA77 /* Quick_Web_AppTests.m */; };
 		C90BA8DC1B8EA2FB0023BA77 /* makeapp.sh in Resources */ = {isa = PBXBuildFile; fileRef = C90BA8DB1B8EA2FB0023BA77 /* makeapp.sh */; };
+		C912EB971B8F49C4008780B3 /* qwaicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C912EB961B8F49C4008780B3 /* qwaicon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		C90BA8CE1B8E94E00023BA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90BA8CF1B8E94E00023BA77 /* Quick_Web_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quick_Web_AppTests.m; sourceTree = "<group>"; };
 		C90BA8DB1B8EA2FB0023BA77 /* makeapp.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = makeapp.sh; sourceTree = "<group>"; };
+		C912EB961B8F49C4008780B3 /* qwaicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = qwaicon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C90BA8DB1B8EA2FB0023BA77 /* makeapp.sh */,
+				C912EB961B8F49C4008780B3 /* qwaicon.icns */,
 				C90BA8BA1B8E94E00023BA77 /* Info.plist */,
 				C90BA8BE1B8E94E00023BA77 /* main.m */,
 			);
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90BA8C11B8E94E00023BA77 /* Images.xcassets in Resources */,
+				C912EB971B8F49C4008780B3 /* qwaicon.icns in Resources */,
 				C90BA8DC1B8EA2FB0023BA77 /* makeapp.sh in Resources */,
 				C90BA8C41B8E94E00023BA77 /* MainMenu.xib in Resources */,
 			);
@@ -405,6 +409,7 @@
 				C90BA8D51B8E94E00023BA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C90BA8D61B8E94E00023BA77 /* Build configuration list for PBXNativeTarget "Quick Web AppTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				C90BA8D81B8E94E00023BA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
