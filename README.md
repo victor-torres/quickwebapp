@@ -5,6 +5,11 @@ Create Chrome-based standalone web applications with custom icons on your Mac OS
 
 Choose a name for your application, enter its URL and choose a cool transparent PNG icon for it.
 
+## Download
+
+![Quick Web App](http://i58.tinypic.com/68hqgo.png)
+[Click here](https://github.com/victor-torres/quickwebapp/releases/download/1.0/QuickWebApp.zip) to download first version.
+
 ## Screenshots
 
 ### Creating new app
