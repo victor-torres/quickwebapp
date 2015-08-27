@@ -1,4 +1,5 @@
 #!/bin/sh
+# Originally created by Alex Malinovich (@demonbane)
 
 name="$1"
 url="$2"
