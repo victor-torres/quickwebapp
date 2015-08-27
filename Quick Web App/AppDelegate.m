@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+@property (weak) IBOutlet NSImageView *iconPreview;
 @property (weak) IBOutlet NSTextField *appName;
 @property (weak) IBOutlet NSTextField *appURL;
 @property (weak) IBOutlet NSTextField *appIcon;
@@ -43,6 +44,9 @@
         NSURL *iconURL = [panel URL];
         NSString *iconPath = iconURL.path;
         _appIcon.stringValue = iconPath;
+        NSImage *iconImage = [[NSImage alloc] initWithContentsOfURL:iconURL];
+        [_iconPreview setImage:iconImage];
+        [_iconPreview setImageAlignment:NSImageAlignCenter];
     }
 }
 
