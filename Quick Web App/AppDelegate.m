@@ -41,7 +41,7 @@
     if(result == NSModalResponseOK)
     {
         NSURL *iconURL = [panel URL];
-        NSString *iconPath = [iconURL absoluteString];
+        NSString *iconPath = iconURL.path;
         _appIcon.stringValue = iconPath;
     }
 }
